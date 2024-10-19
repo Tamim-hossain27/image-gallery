@@ -1,0 +1,53 @@
+div.gallery{
+  border: 1px solid rgb(180, 180, 180);
+  overflow: hidden;
+}
+.gallery img{
+  width: 600px;
+  height: 400px;
+
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.gallery:hover , div.text:hover{
+  border: 1px solid rgb(118, 117, 117);
+}
+* {
+  box-sizing: border-box;
+}
+.responsive{
+  width: 24%;
+  float: left;
+  margin: 0 3px;
+  
+}
+div.text{
+  padding: 10px;
+  border :1px solid rgb(180, 180, 180);
+  text-align: center;
+  font-size: 18px;
+}
+/* @media only screen and (max-width:900px) {
+  .responsive{
+    width:33.33%;
+  } 
+} */
+@media only screen and ( max-width:700px) {
+  .responsive{
+    width: 48%;
+  }
+}
+ 
+/* @media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+} */
+@media only screen and ( max-width:500px) {
+  .responsive{
+    width: 100%;
+  }
+}
